@@ -2,6 +2,8 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import {useState} from "react";
+import cubeImg from "/public/devcatalog-cube.png";
+
 
 const Home: NextPage = () => {
 
@@ -36,7 +38,7 @@ const Home: NextPage = () => {
                   <div className={`p-5 bg-white bg-opacity-50 border rounded-2xl relative ${isSignInMode ? "animation-expand" : ""}`}>
                     <div className={"absolute mx-auto w-[50px] left-0 right-0 -top-5"}>
                         <Image
-                            src={"/../public/devcatalog-cube.png"}
+                            src={cubeImg}
                             alt={"DevCatalog Cube"}
                             width={50}
                             height={50}
