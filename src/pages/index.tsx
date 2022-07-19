@@ -18,6 +18,7 @@ const Home: NextPage = () => {
       <Head>
         <title>DevCatalog</title>
         <meta name="description" content="Discover developers, assets and helpful resources fast and securely." />
+          <meta property="og:image" content={cubeImg.src}/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
