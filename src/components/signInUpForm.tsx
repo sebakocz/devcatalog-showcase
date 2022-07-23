@@ -48,7 +48,7 @@ const SignInUpForm: NextPage = () => {
                 </div>
                 <div className={`flex flex-col gap-3`}>
                     <div className={`text-center mt-3 text-3xl text-purpleSpot-500`}>
-                        Login
+                        {isSignInMode ? "Login" : "Sign Up"}
                     </div>
 
                     <form onSubmit={handleSubmit(onSubmit)} className={"flex flex-col gap-3"}>
