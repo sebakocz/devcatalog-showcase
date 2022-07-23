@@ -1,7 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import SignInUpBox from "../components/signInUpBox";
-import Image from "next/image";
 import cubeImg from "/public/devcatalog-cube.png";
 import SignInUpForm from "../components/signInUpForm";
 
