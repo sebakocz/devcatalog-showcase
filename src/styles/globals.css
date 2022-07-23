@@ -105,17 +105,21 @@ html {
     }
 
     .animation-expand {
-        animation: animation-expand .3s ease-in-out;
+        animation: animation-expand .3s linear;
     }
 
     @keyframes animation-expand {
         0% {
-            opacity: .5;
-            transform: scaleY(.8) translateY(-10%);
+            transform: scaleY(.5) translateY(-35%);
         }
         100% {
-            opacity: 1;
-            transform: scaleY(1);
+            transform: scaleY(1) translateY(0);
         }
+    }
+
+    .login-error-icon {
+        padding-right: 25px;
+        background: white url("../../public/errorIcon.png") no-repeat calc(100% - 15px) center;
+        background-size: 20px;
     }
 }
